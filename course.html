@@ -1,0 +1,105 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WORKRUX</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="C:\Users\ArTriX\Downloads\WORKRUX (2).png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">SERVICE</a></li>
+                    <li><a href="https://coffitivity.com">COFFITIVITY</a></li>
+                    <li><a href="blog.html">ANALYSIS</a></li>
+                    <li><a href="contact.html">GIGS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Workrux Services</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>Features We Offer</h1>
+        <p>Categorised features to achieve work potential</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Distraction Blocker</h3>
+                <p>No pop-ups or incoming calls, Focus mode, do not disturb feature</p>
+            </div>
+            <div class="course-col">
+                <h3>Time Tracker</h3>
+                <p>Real time Calender based To-Do lists and habit trackers</p>
+            </div>
+            <div class="course-col">
+                <h3>Coffitivity</h3>
+                <p>Ambience upgradation with sounds that soothes your adrenaline and refreshes your brain to work</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <p>Integrated featured facilities</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/library.png">
+                    <h3>Focus Oriented Workspace Environment</h3>
+                    <p>Mind mapping speciality feature</p>
+                </div>
+                <div class="facility-col">
+                    <img src="C:\Users\ArTriX\Downloads\1-how-to-do-a-conference-call-on-pc-or-mobile-featured-image.webp">
+                    <h3>Conference Calls and Messages</h3>
+                    <p>organisational and interpersonal communication</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/cafeteria.png">
+                    <h3>Managing Variety of Tasks</h3>
+                    <p>Task pop-ups and reminders</p>
+                </div>
+            </div>
+    </section>
+    
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>www.workrux.com</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by TEAM 8-BIT</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
